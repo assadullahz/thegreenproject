@@ -3,5 +3,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/thegree6/public_html/
+    - /bin/cp -R 'color css' $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R inc $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
     
