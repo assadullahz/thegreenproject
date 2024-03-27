@@ -64,6 +64,10 @@
 
 @media (max-width: 991px) {
 
+  .card-green-energy .card {
+    width: 100% !important;
+  }
+
   .faq-section {
     background-image: url("/images/home/about-bg3.png");
   }
