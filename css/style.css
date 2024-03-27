@@ -4024,7 +4024,8 @@ a:hover {
 }
 
 .font-title {
-  font-family: sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 10px;
 }
 
 .card-value {
