@@ -63,6 +63,15 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 991px) {
+
+  .faq-section {
+    background-image: url("/images/home/about-bg3.png");
+  }
+
+  .visi-misi {
+    flex-direction: column;
+  }
+
   .theme-header-two .theme-menu-wrapper .inner-wrapper {
     padding: 15px 0;
   }
@@ -422,6 +431,10 @@
 /*(min-width: 576px) and (max-width: 767px)*/
 
 @media (max-width: 575px) {
+  .list-widget {
+    display: none;
+  }
+
   .video-presentation .video-player {
     height: 300px;
   }
