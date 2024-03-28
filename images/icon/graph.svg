@@ -1,0 +1,24 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="32" height="32" viewBox="0 0 8.4666665 8.4666669" version="1.1" id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="22. Chart Graph diagram, data, presentation, element, info.svg">
+  <defs id="defs2">
+    <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern"></pattern>
+    <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-3"></pattern>
+    <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-2"></pattern>
+    <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-1"></pattern>
+    <pattern y="0" x="0" height="6" width="6" patternUnits="userSpaceOnUse" id="EMFhbasepattern-5"></pattern>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="7.9999996" inkscape:cx="-2.9641981" inkscape:cy="9.9664659" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" units="px" inkscape:window-width="1280" inkscape:window-height="658" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" showguides="true" guidecolor="#af0000" guideopacity="0.49803922" guidehicolor="#ff4b4b" guidehiopacity="0.49803922" inkscape:snap-global="false">
+    <inkscape:grid type="xygrid" id="grid815" empspacing="1" originx="0" originy="0" spacingx="0" spacingy="0" snapvisiblegridlinesonly="true" visible="true" enabled="true" dotted="false"></inkscape:grid>
+  </sodipodi:namedview>
+  <metadata id="metadata5">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Guides" inkscape:groupmode="layer" id="layer1" transform="translate(0,-288.53332)">
+    <path style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: thin; font-stretch: normal; font-size: medium; line-height: normal; font-family: sans-serif; font-feature-settings: normal; text-indent: 0px; text-align: start; text-decoration: none solid rgb(0, 0, 0); letter-spacing: normal; word-spacing: normal; text-transform: none; writing-mode: lr-tb; direction: ltr; text-orientation: mixed; dominant-baseline: auto; baseline-shift: baseline; text-anchor: start; white-space: normal; clip-rule: nonzero; display: inline; overflow: visible; visibility: visible; opacity: 1; isolation: auto; mix-blend-mode: normal; color-interpolation: srgb; color-interpolation-filters: linearrgb; vector-effect: none; fill: rgb(142, 184, 151); fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-width: 0.1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 1.8; stroke-opacity: 1; paint-order: normal; color-rendering: auto; image-rendering: auto; shape-rendering: auto; text-rendering: auto;" d="m 5.7042204,289.32707 v 0.21252 1.2594 H 4.1555717 v 0.21252 1.21889 H 2.341958 v 0.21004 1.29992 H 0.52916668 v 0.21252 2.25336 H 2.341958 2.7616238 4.5752375 6.1205946 7.9375 v -6.87917 z m 0.4229572,0.42504 h 1.3898339 v 6.0291 H 6.1271776 Z m -1.5486484,1.46945 h 1.1223997 v 4.55965 H 4.5785292 Z m -1.8136142,1.4314 h 1.3906567 v 3.12825 H 2.764915 Z m -1.81279082,1.50913 H 2.341958 v 1.61912 H 0.95212418 Z" id="rect1018-7" inkscape:connector-curvature="0"></path>
+  </g>
+</svg>
