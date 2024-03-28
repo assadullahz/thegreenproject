@@ -23,6 +23,14 @@
 }
 
 @media (max-width: 1199px) {
+  .sustain {
+    display: none;
+  }
+
+  .sustain-sm {
+    display: block;
+  }
+
   .feature-work .single-feature p {
     padding-right: 0;
   }
@@ -315,6 +323,7 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+
 
   .img-footer1 {
     width: 50%;
