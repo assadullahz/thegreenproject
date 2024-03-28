@@ -1342,6 +1342,36 @@ body .theme-button-one:hover {
   margin: 0 auto;
 }
 
+.partner-section-one-about {
+  background: url(../images/home/fitday.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.partner-section-one-about .overlay {
+  padding: 90px 0;
+  background: rgba(14, 71, 54, 0.7);
+}
+
+.partner-section-one-about .overlay img {
+  margin: 0 auto;
+}
+
+.partner-section-one-waste {
+  background: url(../images/home/adika-tirta-daya.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.partner-section-one-waste .overlay {
+  padding: 90px 0;
+  background: rgba(14, 71, 54, 0.7);
+}
+
+.partner-section-one-waste .overlay img {
+  margin: 0 auto;
+}
+
 /*---------------------- Call Back Form One ------------------*/
 .call-back-form-one .theme-title-one {
   margin-bottom: 15px;
@@ -4059,7 +4089,7 @@ a:hover {
 }
 
 .card-value {
-  width: 18rem;
+  width: 22rem;
 }
 
 .card-cert {
@@ -4087,4 +4117,12 @@ a:hover {
 
 .gmap_iframe {
   height: 400px !important;
+}
+
+.sustain-sm {
+  display: none;
+}
+
+.sustain {
+  display: flex;
 }
