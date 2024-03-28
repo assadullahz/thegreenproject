@@ -1312,6 +1312,36 @@ body .theme-button-one:hover {
   margin: 0 auto;
 }
 
+.partner-section-one-hydro {
+  background: url(../images/home/invesment-batu-balai-wide.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.partner-section-one-hydro .overlay {
+  padding: 90px 0;
+  background: rgba(14, 71, 54, 0.7);
+}
+
+.partner-section-one-hydro .overlay img {
+  margin: 0 auto;
+}
+
+.partner-section-one-water {
+  background: url(../images/home/inner-banner-6.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.partner-section-one-water .overlay {
+  padding: 90px 0;
+  background: rgba(14, 71, 54, 0.7);
+}
+
+.partner-section-one-water .overlay img {
+  margin: 0 auto;
+}
+
 /*---------------------- Call Back Form One ------------------*/
 .call-back-form-one .theme-title-one {
   margin-bottom: 15px;

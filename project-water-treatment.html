@@ -1,380 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<!-- For IE -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- For Resposive Device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- For Window Tab Color -->
-		<!-- Chrome, Firefox OS and Opera -->
-		<meta name="theme-color" content="#151515">
-		<!-- Windows Phone -->
-		<meta name="msapplication-navbutton-color" content="#151515">
-		<!-- iOS Safari -->
-		<meta name="apple-mobile-web-app-status-bar-style" content="#151515">
-		<title>The Green Project - Green Investment and Engineering Procurement and Construction </title>
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
-		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<!-- Theme-Color css -->
-		<link rel="stylesheet" id="jssDefault" href="css/color.css">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- For Resposive Device -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- For Window Tab Color -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#151515" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#151515" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#151515" />
+    <title>
+      The Green Project - Green Investment and Engineering Procurement and
+      Construction
+    </title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="56x56"
+      href="images/fav-icon/icon.png"
+    />
+    <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- Theme-Color css -->
+    <link rel="stylesheet" id="jssDefault" href="css/color.css" />
 
-		<!-- Fix Internet Explorer ______________________________________-->
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
-		<![endif]-->	
-	</head>
+    <!-- Fix Internet Explorer ______________________________________-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="vendor/html5shiv.js"></script>
+      <script src="vendor/respond.js"></script>
+    <![endif]-->
+  </head>
 
-	<body>
-		<div class="main-page-wrapper">
-
-			<!-- ===================================================
+  <body>
+    <div class="main-page-wrapper">
+      <!-- ===================================================
 				Loading Transition
 			==================================================== -->
-			<div id="loader-wrapper">
-				<div id="loader"></div>
-			</div>
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
 
-			<!-- ==================== Style Switcher ==================== -->
-			<div class="switcher">
-				<!-- Switcher button -->
-				<div class="switch-btn">
-					<button><i class="fa fa-cog fa-spin"></i></button>
-				</div>
+      <!-- ==================== Style Switcher ==================== -->
+      <div class="switcher">
+        <!-- Switcher button -->
+        <div class="switch-btn">
+          <button><i class="fa fa-cog fa-spin"></i></button>
+        </div>
 
-				<!-- switcher body -->
-				<div class="switch-menu">
-					<h5 class="title">Style Switcher</h5>						
-					<!-- Theme color changer -->
-					<div class="switcher-container">
-						<h5>Color Skins</h5>
-						<ul id="styleOptions" title="Switch Color" class="clearfix">
-							<li><a href="javascript: void(0)" data-theme="color" class="color1"></a></li>
-							<li><a href="javascript: void(0)" data-theme="color-2" class="color2"></a></li>
-							<li><a href="javascript: void(0)" data-theme="color-3" class="color3"></a></li>
-							<li><a href="javascript: void(0)" data-theme="color-4" class="color4"></a></li>
-							<li><a href="javascript: void(0)" data-theme="color-5" class="color5"></a></li>
-						</ul>
-					</div>
-				</div> <!-- /switch-menu -->
-			</div> <!-- /.switcher -->
+        <!-- switcher body -->
+        <div class="switch-menu">
+          <h5 class="title">Style Switcher</h5>
+          <!-- Theme color changer -->
+          <div class="switcher-container">
+            <h5>Color Skins</h5>
+            <ul id="styleOptions" title="Switch Color" class="clearfix">
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="color"
+                  class="color1"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="color-2"
+                  class="color2"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="color-3"
+                  class="color3"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="color-4"
+                  class="color4"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="color-5"
+                  class="color5"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /switch-menu -->
+      </div>
+      <!-- /.switcher -->
 
-			
-
-			<!-- 
+      <!-- 
 			=============================================
 				Theme Header
 			============================================== 
 			-->
-			<header class="theme-main-header theme-header-two">
-				
+      <header class="theme-main-header theme-header-two">
+        <div class="middle-header">
+          <div class="container clearfix">
+            <!-- ================= Logo ==================== -->
+            <div class="logo">
+              <a href="index.html"
+                ><img src="images/logo/logo.png" alt="logo"
+              /></a>
+            </div>
 
-				<div class="middle-header">
-					<div class="container clearfix">
-						<!-- ================= Logo ==================== -->
-						<div class="logo"><a href="index.html"><img src="images/logo/logo.png" alt="logo"></a></div>
+            <ul class="our-address clearfix">
+              <li>
+                <i class="icon flaticon-map"></i>
+                <p>
+                  Jl. Margasatwa No.111 Pondok Labu<br />Jakarta Selatan 12450
+                  Indonesia
+                </p>
+              </li>
+              <li>
+                <i class="icon flaticon-clock"></i>
+                <p>
+                  Mon - <span>Sat 8.00 - 18.00</span> <br />
+                  Sunday CLOSED
+                </p>
+              </li>
+              <li>
+                <i class="icon flaticon-phone-call"></i>
+                <p><a href="#">(62) 21 750 33 55</a><br />(62) 21 750 46 77</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.middle-header -->
 
-						<ul class="our-address clearfix">
-							<li>
-								<i class="icon flaticon-map"></i>
-								<p>Jl. Margasatwa No.111 Pondok Labu<br>Jakarta Selatan 12450 Indonesia</span> </p>
-							</li>
-							<li>
-								<i class="icon flaticon-clock"></i>
-								<p>Mon - <span>Sat 8.00 - 18.00</span> <br> Sunday CLOSED</p>
-							</li>
-							<li>
-								<i class="icon flaticon-phone-call"></i>
-								<p><a href="#">(62) 21 750 33 55</a><br>(62) 21 750 46 77</p>
-							</li>
-						</ul>
-					</div>
-				</div> <!-- /.middle-header -->
+        <div class="theme-menu-wrapper">
+          <div class="container">
+            <div class="inner-wrapper clearfix">
+              <!-- ============== Menu Warpper ================ -->
+              <div class="menu-wrapper float-left">
+                <nav id="mega-menu-holder" class="clearfix">
+                  <ul class="clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About us</a></li>
+                    <li>
+                      <a href="#">Services</a>
+                      <ul class="dropdown">
+                        <li><a href="green-energy.html">Green Energy</a></li>
+                        <li>
+                          <a href="energy-efficiency.html">Energy Efficiency</a>
+                        </li>
+                        <li>
+                          <a href="water-wastewater.html"
+                            >Waste & Water Management</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Project</a>
+                      <ul class="dropdown">
+                        <li>
+                          <a href="#">Green Energy</a>
+                          <ul>
+                            <li>
+                              <a href="project-solar-power-plant.html"
+                                >Solar Power Plant</a
+                              >
+                            </li>
+                            <li>
+                              <a href="project-mini-hydro.html"
+                                >Mini Hydro Power Plant</a
+                              >
+                            </li>
+                            <li><a href="#">Biomass</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#project-energy-efficiency.html"
+                            >Energy Efficiency</a
+                          >
+                        </li>
+                        <li>
+                          <a href="project-water-treatment.html"
+                            >Waste & Water Management</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="invesment-strategy.html">Invesment Strategy</a>
+                    </li>
+                    <li><a href="#news.html">News</a></li>
 
-				<div class="theme-menu-wrapper">
-					<div class="container">
-						<div class="inner-wrapper clearfix">
-							<!-- ============== Menu Warpper ================ -->
-					   		<div class="menu-wrapper float-left">
-					   			<nav id="mega-menu-holder" class="clearfix">
-								   <ul class="clearfix">
-									   <li><a href="index.html">Home</a>
-									    	
-									    </li>
-									    <li><a href="about us.html">About us</a>
-									    	
-									    </li>
-									    <li><a href="#">Services</a>
-									    	<ul class="dropdown">
-									        	<li><a href="green-energy.html">Green Energy</a></li>
-									        	<li><a href="energy-efficiency.html">Energy Efficiency</a></li>
-									        	<li><a href="water-wastewater.html">Waste & Water Management</a></li>
-											
-									       </ul>
-									    </li>
-									    <li><a href="#">Project</a>
-									    	<ul class="dropdown">
-									        	<li><a href="#">Green Energy</a> 
-												<ul>
-									    				<li><a href="project-solar-power-plant.html">Solar Power Plant</a></li>
-									    				<li><a href="project-mini-hydro.html">Mini Hydro Power Plant</a></li>
-													<li><a href="#">Biomass</a></li>
-									    			</ul></li>
-									        	<li><a href="#project-energy-efficiency.html">Energy Efficiency</a></li>
-									        	<li><a href="project-water-treatment.html">Waste & Water Management</a>
-									       </ul>
-									    </li>
-									    <li><a href="invesment-strategy.html">Invesment Strategy</a></li>
-									    <li><a href="#news.html">News</a></li>
-									    
-									    <li><a href="contact.html">contact</a></li>
-								   </ul>
-								</nav> <!-- /#mega-menu-holder -->
-					   		</div> <!-- /.menu-wrapper -->
+                    <li><a href="contact.html">contact</a></li>
+                  </ul>
+                </nav>
+                <!-- /#mega-menu-holder -->
+              </div>
+              <!-- /.menu-wrapper -->
 
-					   		<ul class="social-icon float-right">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-							</ul>
-						</div> <!-- /.inner-wrapper -->
-					</div> <!-- /.container -->
-				</div> <!-- /.theme-menu-wrapper -->
-			</header> <!-- /.theme-main-header -->
+              <ul class="social-icon float-right">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.inner-wrapper -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.theme-menu-wrapper -->
+      </header>
+      <!-- /.theme-main-header -->
 
-			
-			<!-- 
+      <!-- 
 			=============================================
 				Theme Inner Banner
 			============================================== 
 			-->
-			<div class="theme-inner-banner section-spacing" style="background: url(images/home/wtp.jpg) no-repeat center; background-size:cover;">
-				<div class="overlay">
-					<div class="container">
-						<h2 class="title">Water Treatment</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>.</li>
-							<li><a href="#">Pages</a></li>
-							<li>.</li>
-							<li>Water Treatment</li>
-						</ul>
-					</div>
-				</div> <!-- /.overlay -->
-			</div> <!-- /.theme-inner-banner -->
-			
-			
+      <div
+        class="theme-inner-banner section-spacing"
+        style="
+          background: url(images/home/wtp.jpg) no-repeat center;
+          background-size: cover;
+        "
+      >
+        <div class="overlay">
+          <div class="container">
+            <h2 class="title">Water Treatment</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>.</li>
+              <li><a href="#">Pages</a></li>
+              <li>.</li>
+              <li>Water Treatment</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.overlay -->
+      </div>
+      <!-- /.theme-inner-banner -->
 
-
-			<!-- 
+      <!-- 
 			=============================================
 				Service Style Two
 			============================================== 
 			-->
-			<div class="service-style-two section-spacing">
-				<div class="container">
-<h2 class="title">Water Treatment & <br>Wastewater Treatment</h2>
-<br><p>
-Pasuruan faces limited water sources, relying on well drilling or surface water via SPAM. Regulations control deep well water usage, allocating 5-10% for communities through PDAM rules. Areas like Samarinda, Gresik, and Sidoarjo struggle due to water supply-demand gaps, quality issues, distribution challenges, and environmental impacts during development. Projects focus on energy-efficient technology and adapting to water sources (e.g., peat river in Dumai, springs in Pasuruan) for distribution spanning 9 km and 40 km.
-</p><br>
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/moi.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-bag"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Mall of Indonesia</a></h5>
-										<span>WWTP 750 m3/day - North Jakarta</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/dumai.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-bag"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Adika Bakti Parama</a></h5>
-										<span>WTP 150 Lps - Dumai, Riau</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/pasuruan.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-bag"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Pasuruan SPAM</a></h5>
-										<span>Pra FS - Pasuruan, Jawa timur</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/meruap.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-bag"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Pertamina Meruap</a></h5>
-										<span>WWTP 150 Kps - North Jakarta</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/lippo.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-chair"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Lippo Mall Puri</a></h5>
-										<span>WWTP 700 m3/day - Kembangan, West Jakarta</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/redtop.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-law"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Redtop Hotel</a></h5>
-										<span>WWTP 450 m3/day - Gambir, Central Jakarta</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/trans-cibubur.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-pie-chart"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Trans Studio Cibubur</a></h5>
-										<span>WTP 600 m3/day - Depok, West Java</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/palembang.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-chart2"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">Palembang Icon</a></h5>
-										<span>WTP 300 m3/day - Palembang, South Sumatera</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="img-box">
-									<img src="images/service/french.jpg" alt="">
-									<div class="overlay">
-										<i class="flaticon-unlink"></i></a>
-									</div> <!-- /.overlay -->
-								</div> <!-- /.img-box -->
-								<div class="text">
-									<i class="icon flaticon-puzzle"></i>
-									<div class="srvc-name">
-										<h5><a href="service-details.html">French Walk Apartment</a></h5>
-										<span>WTP 250 m3/day - Kelapa Gading, North Jakarta</span>
-									</div> <!-- /.srvc-name -->
-									<p>Vitae laoreet sagittis. In pellentesqueviverra purus. Sed risus est, molestie  hendrerit hendrerit,</p>
-								</div> <!-- /.text -->
-							</div> <!-- /.single-block -->
-						</div> <!-- /.item -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-			</div> <!-- /.service-style-two -->
+      <div class="service-style-two section-spacing">
+        <div class="container">
+          <h2 class="title">Water Treatment & <br />Wastewater Treatment</h2>
+          <br />
+          <p>
+            Pasuruan faces limited water sources, relying on well drilling or
+            surface water via SPAM. Regulations control deep well water usage,
+            allocating 5-10% for communities through PDAM rules. Areas like
+            Samarinda, Gresik, and Sidoarjo struggle due to water supply-demand
+            gaps, quality issues, distribution challenges, and environmental
+            impacts during development. Projects focus on energy-efficient
+            technology and adapting to water sources (e.g., peat river in Dumai,
+            springs in Pasuruan) for distribution spanning 9 km and 40 km.
+          </p>
+          <br />
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/moi.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5>
+                      <a href="service-details.html">Mall of Indonesia</a>
+                    </h5>
+                    <span>WWTP 750 m3/day - North Jakarta</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    The WWTP MOI project in Kelapa Gading, North Jakarta,
+                    serving Mall of Indonesia, has a capacity of 750 m3/day,
+                    operational since 2015.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/dumai.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5>
+                      <a href="service-details.html">Adika Bakti Parama</a>
+                    </h5>
+                    <span>WTP 150 Lps - Dumai, Riau</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    Vitae laoreet sagittis. In pellentesqueviverra purus. Sed
+                    risus est, molestie hendrerit hendrerit,
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/pasuruan.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5><a href="service-details.html">Pasuruan SPAM</a></h5>
+                    <span>Pra FS - Pasuruan, Jawa timur</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    Vitae laoreet sagittis. In pellentesqueviverra purus. Sed
+                    risus est, molestie hendrerit hendrerit,
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/meruap.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5><a href="service-details.html">Pertamina Meruap</a></h5>
+                    <span>WWTP 150 Kps - North Jakarta</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    Vitae laoreet sagittis. In pellentesqueviverra purus. Sed
+                    risus est, molestie hendrerit hendrerit,
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/lippo.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5><a href="service-details.html">Lippo Mall Puri</a></h5>
+                    <span>WWTP 700 m3/day - Kembangan, West Jakarta</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    Waste treatment Lippo Mall Puri in Kembangan, West Jakarta,
+                    serving Lippo Mall Puri, with a capacity of 700 m3/day,
+                    operating from 2020 to 2026.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/redtop.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5><a href="service-details.html">Redtop Hotel</a></h5>
+                    <span>WWTP 450 m3/day - Gambir, Central Jakarta</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    The WWTP Red Top Hotel in Gambir, Central Jakarta, serving
+                    Hotel Redtop, has been operational since 2010, with a
+                    capacity of 450 m3/day.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/trans-cibubur.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5>
+                      <a href="service-details.html">Trans Studio Cibubur</a>
+                    </h5>
+                    <span>WTP 600 m3/day - Depok, West Java</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    WTP/ IPA Transstudio in Depok, West Java, serving Trans
+                    Studio Cibubur, with a capacity of 600 m3/day, operational
+                    from 2020 to 2026.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/palembang.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5><a href="service-details.html">Palembang Icon</a></h5>
+                    <span>WTP 300 m3/day - Palembang, South Sumatera</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    WTP/ IPA Palembang Icon in Palembang, South Sumatera,
+                    serving Palembang Icon, with a capacity of 300 m3/day,
+                    operational from 2022 to 2025.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="single-block">
+                <div class="img-box">
+                  <img src="images/service/french.jpg" alt="" />
+                  <div class="overlay">
+                    <i class="flaticon-unlink"></i>
+                  </div>
+                  <!-- /.overlay -->
+                </div>
+                <!-- /.img-box -->
+                <div class="text">
+                  <img
+                    class="icon"
+                    style="margin-top: 10px"
+                    width="50px"
+                    src="images/icon/water-treatment.svg"
+                    alt=""
+                  />
+                  <div class="srvc-name">
+                    <h5>
+                      <a href="service-details.html">French Walk Apartment</a>
+                    </h5>
+                    <span>WTP 250 m3/day - Kelapa Gading, North Jakarta</span>
+                  </div>
+                  <!-- /.srvc-name -->
+                  <p>
+                    WTP/ IPA French Walk in Kelapa Gading, North Jakarta,
+                    serving French Walk Apartment Lourdes Garden, with a
+                    capacity of 250 m3/day, operational from 2019 to 2020.
+                  </p>
+                </div>
+                <!-- /.text -->
+              </div>
+              <!-- /.single-block -->
+            </div>
+            <!-- /.item -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.service-style-two -->
 
-
-			<!--
+      <!--
 			=====================================================
 				Partner Section One
 			=====================================================
 			-->
-			<div class="partner-section-one section-spacing">
-				<div class="overlay">
-					<div class="container">
-						<div class="partner-slider">
-							<div class="item"><img src="images/logo/p-1.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-2.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-3.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-4.png" alt=""></div>
-							<div class="item"><img src="images/logo/p-5.png" alt=""></div>
-						</div>
-					</div> <!-- /.container -->
-				</div> <!-- /.overlay -->
-			</div> <!-- /.partner-section-one -->
+      <div class="partner-section-one-water section-spacing">
+        <div class="overlay">
+          <div class="container">
+            <div class="partner-slider">
+              <div class="item"><img src="images/logo/p-1.png" alt="" /></div>
+              <div class="item"><img src="images/logo/p-2.png" alt="" /></div>
+              <div class="item"><img src="images/logo/p-3.png" alt="" /></div>
+              <div class="item"><img src="images/logo/p-4.png" alt="" /></div>
+              <div class="item"><img src="images/logo/p-5.png" alt="" /></div>
+            </div>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.overlay -->
+      </div>
+      <!-- /.partner-section-one -->
 
-
-
-
-			<!--
+      <!--
 			=====================================================
 				Latest Project
 			=====================================================
@@ -387,204 +643,209 @@ Pasuruan faces limited water sources, relying on well drilling or surface water 
 				Call Back Form One
 			=====================================================
 			-->
-			<div class="call-back-form-one section-spacing">
-				<div class="container">
-					<div class="theme-title-one text-center">
-						<h2 class="title">Request a Call Back</h2>
-					</div> <!-- /.theme-title-one -->
-					<form action="#">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-12"><input type="text" placeholder="Name"></div>
-							<div class="col-lg-4 col-md-6 col-12"><input type="email" placeholder="Email"></div>
-							<div class="col-lg-4 col-12"><input type="text" placeholder="Phone"></div>
-							<div class="col-lg-4 col-12">
-								<select class="form-control" id="exampleSelect1">
-								    <option>I would like to discuss</option>
-								    <option>Business Services</option>
-								    <option>Consumer Product</option>
-								    <option>Financial Services</option>
-								    <option>Software Research</option>
-								</select>
-								<input type="text" placeholder="Any Other Topic ">
-							</div>
-							<div class="col-lg-8 col-12"><textarea placeholder="Your Words"></textarea></div>
-						</div>
-						<button class="theme-button-one">Submit</button>
-					</form>
-				</div> <!-- /.container -->
-			</div> <!-- /.call-back-form-one -->
+      <div class="call-back-form-one section-spacing">
+        <div class="container">
+          <div class="theme-title-one text-center">
+            <h2 class="title">Request a Call Back</h2>
+          </div>
+          <!-- /.theme-title-one -->
+          <form action="#">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="col-lg-4 col-12">
+                <input type="text" placeholder="Phone" />
+              </div>
+              <div class="col-lg-4 col-12">
+                <select class="form-control" id="exampleSelect1">
+                  <option>I would like to discuss</option>
+                  <option>Business Services</option>
+                  <option>Consumer Product</option>
+                  <option>Financial Services</option>
+                  <option>Software Research</option>
+                </select>
+                <input type="text" placeholder="Any Other Topic " />
+              </div>
+              <div class="col-lg-8 col-12">
+                <textarea placeholder="Your Words"></textarea>
+              </div>
+            </div>
+            <button class="theme-button-one">Submit</button>
+          </form>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.call-back-form-one -->
 
-
-
-			<!--
+      <!--
 			=====================================================
 				Footer
 			=====================================================
 			-->
-			<footer class="theme-footer-one">
-				<div class="container">
-				  <div class="top-footer">
-					<div class="logo">
-					  <a href="index.html"
-						><img src="images/logo/logo.png" alt="logo"
-					  /></a>
-					</div>
-					<ul class="clearfix">
-					  <li>
-						<i class="icon flaticon-smartphone"></i>
-						<h6>Phone :</h6>
-						<a href="#">(62) 21 750 33 55/ 750 46 77</a>
-					  </li>
-					  <li>
-						<i class="icon flaticon-message"></i>
-						<h6>E-mail :</h6>
-						<a href="#">ask-us@thegreenproject.com</a>
-					  </li>
-					</ul>
-				  </div>
-				  <!-- /.top-footer -->
-				</div>
-				<!-- /.container -->
-		
-				<div class="main-footer-widget">
-				  <div class="container">
-					<div class="row">
-					  <div class="col-lg-3 col-sm-6 about-widget">
-						<h6 class="title">Address</h6>
-						<p>
-						  Jl. Margasatwa No.111 Pondok Labu, Jakarta Selatan 12450
-						  Indonesia
-						</p>
-						<h6 class="title">Information</h6>
-		
-						<li>
-						  <a href="about us.html" class="text-white">About Us</a>
-						</li>
-						<li>
-						  <a href="invesment-strategy.html" class="text-white">
-							Services
-						  </a>
-						</li>
-						<li>
-						  <a href="contact.html" class="text-white">Contacts</a>
-						</li>
-						<li><a href="faq.html" class="text-white">FAQ</a></li>
-					  </div>
-					  <!-- /.about-widget -->
-		
-					  <div class="col-lg-2 col-sm-6 list-widget">
-						<h6 class="title"></h6>
-						<ul></ul>
-					  </div>
-					  <!-- /.list-widget -->
-		
-					  <div class="col-lg-4 col-md-6 col-12 comment-widget">
-						<h6 class="title">Certified By</h6>
-						<div
-						  class="card"
-						  style="
-							width: 50%;
-							background-color: white;
-							border: 4px solid #8eb897;
-						  "
-						>
-						  <div class="card-body d-flex flex-wrap" style="gap: 20px">
-							<img class="img-footer1" src="images/blog/4.png" alt="" />
-							<img class="img-footer1" src="images/blog/4a.png" alt="" />
-							<img class="img-footer1" src="images/blog/5.png" alt="" />
-							<img class="img-footer1" src="images/blog/5a.png" alt="" />
-						  </div>
-						</div>
-					  </div>
-					  <!-- /.comment-widget -->
-		
-					  <div class="col-lg-3 col-md-6 col-12 subscribe-widget">
-						<h6 class="title">Download Business Proposal</h6>
-						<form action="#">
-						  <input type="email" placeholder="Email Address" />
-						  <button>
-							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						  </button>
-						</form>
-						<p>Signup for our business proposal.</p>
-						<ul class="social-icon">
-						  <li>
-							<a href="#" class="text-white"
-							  ><i class="fa fa-twitter" aria-hidden="true"></i
-							></a>
-						  </li>
-						  <li>
-							<a href="#" class="text-white"
-							  ><i class="fa fa-facebook" aria-hidden="true"></i
-							></a>
-						  </li>
-						  <li>
-							<a href="#" class="text-white"
-							  ><i class="fa fa-pinterest-p" aria-hidden="true"></i
-							></a>
-						  </li>
-						  <li>
-							<a href="#" class="text-white"
-							  ><i class="fa fa-vimeo" aria-hidden="true"></i
-							></a>
-						  </li>
-						</ul>
-					  </div>
-					  <!-- /.subscribe-widget -->
-					</div>
-					<!-- /.row -->
-				  </div>
-				  <!-- /.container -->
-				</div>
-				<!-- /.main-footer-widget -->
-		
-				<div class="bottom-footer">
-				  <div class="container">
-					<p>Copyright 2023 The Green Project – All Right Reserved</p>
-				  </div>
-				</div>
-				<!-- /.bottom-footer -->
-			  </footer>
-			
+      <footer class="theme-footer-one">
+        <div class="container">
+          <div class="top-footer">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="images/logo/logo.png" alt="logo"
+              /></a>
+            </div>
+            <ul class="clearfix">
+              <li>
+                <i class="icon flaticon-smartphone"></i>
+                <h6>Phone :</h6>
+                <a href="#">(62) 21 750 33 55/ 750 46 77</a>
+              </li>
+              <li>
+                <i class="icon flaticon-message"></i>
+                <h6>E-mail :</h6>
+                <a href="#">ask-us@thegreenproject.com</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.top-footer -->
+        </div>
+        <!-- /.container -->
 
-	        
+        <div class="main-footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6 about-widget">
+                <h6 class="title">Address</h6>
+                <p>
+                  Jl. Margasatwa No.111 Pondok Labu, Jakarta Selatan 12450
+                  Indonesia
+                </p>
+                <h6 class="title">Information</h6>
 
-	        <!-- Scroll Top Button -->
-			<button class="scroll-top tran3s">
-				<i class="fa fa-angle-up" aria-hidden="true"></i>
-			</button>
-			
+                <li>
+                  <a href="about us.html" class="text-white">About Us</a>
+                </li>
+                <li>
+                  <a href="invesment-strategy.html" class="text-white">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-white">Contacts</a>
+                </li>
+                <li><a href="faq.html" class="text-white">FAQ</a></li>
+              </div>
+              <!-- /.about-widget -->
 
+              <div class="col-lg-2 col-sm-6 list-widget">
+                <h6 class="title"></h6>
+                <ul></ul>
+              </div>
+              <!-- /.list-widget -->
 
-		<!-- Optional JavaScript _____________________________  -->
+              <div class="col-lg-4 col-md-6 col-12 comment-widget">
+                <h6 class="title">Certified By</h6>
+                <div
+                  class="card"
+                  style="
+                    width: 50%;
+                    background-color: white;
+                    border: 4px solid #8eb897;
+                  "
+                >
+                  <div class="card-body d-flex flex-wrap" style="gap: 20px">
+                    <img class="img-footer1" src="images/blog/4.png" alt="" />
+                    <img class="img-footer1" src="images/blog/4a.png" alt="" />
+                    <img class="img-footer1" src="images/blog/5.png" alt="" />
+                    <img class="img-footer1" src="images/blog/5a.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- /.comment-widget -->
 
-    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    	<!-- jQuery -->
-		<script src="vendor/jquery.2.2.3.min.js"></script>
-		<!-- Popper js -->
-		<script src="vendor/popper.js/popper.min.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<!-- Style-switcher  -->
-		<script src="vendor/jQuery.style.switcher.min.js"></script>
-		<!-- Camera Slider -->
-		<script src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
-	    <script src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
-	    <script src='vendor/Camera-master/scripts/camera.min.js'></script>
-	    <!-- menu  -->
-		<script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
-		<!-- WOW js -->
-		<script src="vendor/WOW-master/dist/wow.min.js"></script>
-		<!-- owl.carousel -->
-		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- js count to -->
-		<script src="vendor/jquery.appear.js"></script>
-		<script src="vendor/jquery.countTo.js"></script>
-		<!-- Fancybox -->
-		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+              <div class="col-lg-3 col-md-6 col-12 subscribe-widget">
+                <h6 class="title">Download Business Proposal</h6>
+                <form action="#">
+                  <input type="email" placeholder="Email Address" />
+                  <button>
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </form>
+                <p>Signup for our business proposal.</p>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#" class="text-white"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white"
+                      ><i class="fa fa-vimeo" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.subscribe-widget -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.main-footer-widget -->
 
-		<!-- Theme js -->
-		<script src="js/theme.js"></script>
-		</div> <!-- /.main-page-wrapper -->
-	</body>
+        <div class="bottom-footer">
+          <div class="container">
+            <p>Copyright 2023 The Green Project – All Right Reserved</p>
+          </div>
+        </div>
+        <!-- /.bottom-footer -->
+      </footer>
+
+      <!-- Scroll Top Button -->
+      <button class="scroll-top tran3s">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+      </button>
+
+      <!-- Optional JavaScript _____________________________  -->
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <!-- jQuery -->
+      <script src="vendor/jquery.2.2.3.min.js"></script>
+      <!-- Popper js -->
+      <script src="vendor/popper.js/popper.min.js"></script>
+      <!-- Bootstrap JS -->
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Style-switcher  -->
+      <script src="vendor/jQuery.style.switcher.min.js"></script>
+      <!-- Camera Slider -->
+      <script src="vendor/Camera-master/scripts/jquery.mobile.customized.min.js"></script>
+      <script src="vendor/Camera-master/scripts/jquery.easing.1.3.js"></script>
+      <script src="vendor/Camera-master/scripts/camera.min.js"></script>
+      <!-- menu  -->
+      <script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
+      <!-- WOW js -->
+      <script src="vendor/WOW-master/dist/wow.min.js"></script>
+      <!-- owl.carousel -->
+      <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+      <!-- js count to -->
+      <script src="vendor/jquery.appear.js"></script>
+      <script src="vendor/jquery.countTo.js"></script>
+      <!-- Fancybox -->
+      <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+
+      <!-- Theme js -->
+      <script src="js/theme.js"></script>
+    </div>
+    <!-- /.main-page-wrapper -->
+  </body>
 </html>
