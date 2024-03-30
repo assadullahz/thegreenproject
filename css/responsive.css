@@ -72,6 +72,10 @@
 
 @media (max-width: 991px) {
 
+  .tgp-title {
+    line-height: 1;
+  }
+
   .card-green-energy .card {
     width: 100% !important;
   }
