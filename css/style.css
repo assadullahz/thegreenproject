@@ -4126,3 +4126,7 @@ a:hover {
 .sustain {
   display: flex;
 }
+
+.tgp-title {
+  font-size: 80pt !important;
+}
