@@ -78,6 +78,7 @@
 
   .faq-section {
     background-image: url("/images/home/about-bg3.png");
+    margin-top: 0 !important;
   }
 
   .visi-misi {
@@ -92,7 +93,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 9;
+    z-index: 99;
   }
 
   .theme-header-two .social-icon {
@@ -526,9 +527,6 @@
     padding: 35px 0 0 0;
   }
 
-  .banner-one {
-    height: 500px !important;
-  }
 
   #theme-main-banner .camera_caption h1 {
     font-size: 40px;
