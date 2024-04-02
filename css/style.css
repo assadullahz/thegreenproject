@@ -441,9 +441,9 @@ body .theme-button-one:hover {
 .theme-main-header .middle-header .our-address li {
   display: inline-block;
   position: relative;
-  padding-left: 45px;
+  padding-left: 32px;
   vertical-align: middle;
-  margin: 12px 0 0 52px;
+  margin: 15px 0 0 20px;
 }
 
 .theme-main-header .middle-header .our-address li:first-child {
@@ -451,22 +451,21 @@ body .theme-button-one:hover {
 }
 
 .theme-main-header .middle-header .our-address li p {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 17px;
   color: #fff;
 }
 
 .theme-main-header .middle-header .our-address li p a {
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 600;
   color: #fff;
 }
 
 .theme-main-header .middle-header .our-address li .icon {
   position: absolute;
-  top: -3px;
   left: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /*------------------------ Theme menu --------------------*/
@@ -4129,4 +4128,21 @@ a:hover {
 
 .tgp-title {
   font-size: 80pt !important;
+}
+
+.list-scheme {
+  margin-left: 25px;
+}
+
+.list-scheme li {
+  list-style-type: circle;
+}
+
+.theme-main-header .theme-all {
+  height: 60px;
+}
+
+
+.impact-li li {
+  width: 25%;
 }
