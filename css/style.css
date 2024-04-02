@@ -1219,7 +1219,7 @@ body .theme-button-one:hover {
 /*---------------------- FAQ Section ---------------------*/
 .faq-section {
   background: #f6f6f6;
-  padding: 135px 0 150px 0;
+  padding: 200px 0 180px 0;
   position: relative;
 }
 
@@ -4145,4 +4145,11 @@ a:hover {
 
 .impact-li li {
   width: 25%;
+}
+
+.faq-section {
+  background-image: url("/images/home/about-bg4.png");
+  background-size: auto;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
