@@ -329,6 +329,9 @@
 
 @media (max-width: 767px) {
 
+  .impact-li li {
+    width: 100%;
+  }
 
   .img-footer1 {
     width: 50%;

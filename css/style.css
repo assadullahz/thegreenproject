@@ -4137,3 +4137,12 @@ a:hover {
 .list-scheme li {
   list-style-type: circle;
 }
+
+.theme-main-header .theme-all {
+  height: 55px;
+}
+
+
+.impact-li li {
+  width: 25%;
+}
