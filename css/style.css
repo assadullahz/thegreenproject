@@ -4156,6 +4156,7 @@ a:hover {
 
 .logo a img {
   height: 50px;
+  margin-top: 5px;
 }
 
 .footer-input::placeholder {

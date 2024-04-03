@@ -72,6 +72,11 @@
 
 @media (max-width: 991px) {
 
+  .logo a img {
+    height: 40px;
+    margin-top: 10px;
+  }
+
   .tgp-title {
     line-height: 1;
   }
