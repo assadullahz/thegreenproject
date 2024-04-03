@@ -443,7 +443,7 @@ body .theme-button-one:hover {
   position: relative;
   padding-left: 32px;
   vertical-align: middle;
-  margin: 15px 0 0 20px;
+  margin: 5px 0 0 20px;
 }
 
 .theme-main-header .middle-header .our-address li:first-child {
@@ -4152,4 +4152,18 @@ a:hover {
   background-size: auto;
   object-fit: cover;
   background-repeat: no-repeat;
+}
+
+.logo a img {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.footer-input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.footer-input::-ms-input-placeholder {
+  color: white;
 }
