@@ -71,6 +71,9 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 991px) {
+  .theme-footer-one .top-footer .logo {
+    display: none;
+  }
 
   .logo a img {
     height: 40px;
