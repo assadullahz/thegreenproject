@@ -1693,23 +1693,23 @@ body .theme-button-one:hover {
   border: none;
 }
 
-.main-footer-widget .subscribe-widget form {
+.main-footer-widget .subscribe-widget .form-email {
   position: relative;
   height: 48px;
   margin-bottom: 20px;
 }
 
-.main-footer-widget .subscribe-widget form input {
+.main-footer-widget .subscribe-widget input {
   width: 100%;
   height: 100%;
-  border: none;
+  border: 1px solid white;
   background: #8EB897;
   border-radius: 10px;
   padding: 0 58px 0 15px;
   color: #696969;
 }
 
-.main-footer-widget .subscribe-widget form button {
+.main-footer-widget .subscribe-widget button {
   position: absolute;
   width: 55px;
   top: 0;
@@ -1718,6 +1718,9 @@ body .theme-button-one:hover {
   border-radius: 0 10px 10px 0;
   color: #fff;
   font-size: 20px;
+  border: 1px solid white;
+  background-color: #0E4736;
+
 }
 
 .main-footer-widget .social-icon li {
