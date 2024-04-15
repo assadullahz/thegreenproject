@@ -4152,9 +4152,10 @@ a:hover {
 
 .faq-section {
   background-image: url("/images/home/about-bg4.png");
-  background-size: auto;
+  background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
+  background-position: 0 60%;
 }
 
 .logo a img {
