@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.70666in" height="1.70666in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 1707 1707" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   
+    .fil0 {fill:url(#id0)}
+   
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="0.169291" y1="853.327" x2="1706.49" y2="853.327">
+   <stop offset="0" style="stop-opacity: 1; stop-color: rgb(142, 184, 151);" id="id_102"></stop>
+   <stop offset="1" style="stop-opacity: 1; stop-color: rgb(142, 184, 151);" id="id_103"></stop>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+  <path class="fil0" d="M766 444l-346 0 0 287 409 0 0 -287 -63 0zm460 1225l-1203 0c-13,0 -23,-10 -23,-23l0 -1586c0,-12 10,-22 23,-22l1203 0c12,0 23,10 23,22l0 1586c0,13 -11,23 -23,23zm-1180 -45l1157 0 0 -1541 -1157 0 0 1541zm1030 -665l-904 0c-30,0 -30,-46 0,-46l904 0c30,0 30,46 0,46zm0 182l-904 0c-30,0 -30,-45 0,-45l904 0c30,0 30,45 0,45zm0 183l-904 0c-30,0 -30,-46 0,-46l904 0c30,0 30,46 0,46zm0 182l-904 0c-30,0 -30,-45 0,-45l904 0c30,0 30,45 0,45zm256 -223l-2 -10 0 -1212c0,-13 10,-23 23,-23l331 0c12,0 22,10 22,23l0 1212 -2 10 -165 372c-8,18 -33,18 -41,0l-166 -372zm329 -32l0 -868 -120 0 0 868 120 0zm-165 -868l-120 0 0 868 120 0 0 -868zm-120 -45l285 0 0 -255 -285 0 0 255zm12 958l130 294 131 -294 -261 0zm-786 -670c-72,-26 -54,-132 22,-132 76,0 95,106 23,132 0,29 7,66 -23,66 -29,0 -22,-37 -22,-66zm22 -87c-29,0 -29,45 0,45 30,0 30,-45 0,-45zm-164 -140l0 -73c0,-167 329,-167 329,0l0 73 62 0c13,0 23,10 23,22l0 333c0,12 -10,22 -23,22l-454 0c-12,0 -22,-10 -22,-22l0 -333c0,-12 10,-22 22,-22l63 0zm45 0l238 0 0 -73c0,-107 -238,-107 -238,0l0 73z" id="id_101"></path>
+ </g>
+</svg>
