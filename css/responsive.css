@@ -22,7 +22,19 @@
   }
 }
 
+
 @media (max-width: 1199px) {
+  .title-schemes {
+    width: 100%;
+  }
+
+  .title-schemes h4 {
+    font-weight: normal;
+    font-size: 25px;
+    max-width: 100%;
+    padding: 20px;
+  }
+
   .sustain {
     display: none;
   }
@@ -71,6 +83,7 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 991px) {
+
   .theme-footer-one .top-footer .logo {
     display: none;
   }
@@ -337,14 +350,14 @@
 
 @media (max-width: 767px) {
 
+  .card-cert {
+    max-width: 100%;
+  }
+
   .impact-li li {
     width: 100%;
   }
 
-  .img-footer1 {
-    width: 50%;
-    margin: auto auto;
-  }
 
   .theme-main-header .top-header p {
     float: none !important;

@@ -4138,7 +4138,7 @@ a:hover {
 }
 
 .list-scheme li {
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .theme-main-header .theme-all {
@@ -4170,4 +4170,43 @@ a:hover {
 
 .footer-input::-ms-input-placeholder {
   color: white;
+}
+
+.title-schemes {
+  background-color: #8FB898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  width: 220px;
+}
+
+.title-schemes h4 {
+  font-weight: normal;
+  font-size: 25px;
+  max-width: 170px;
+}
+
+.wrap-list {
+  padding: 30px 25px;
+}
+
+.shadow {
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.line-collab {
+  height: 100%;
+  min-height: 200px;
+  width: 15px;
+  background-color: #8FB898;
+  border-radius: 0;
+  position: relative;
+}
+
+.line-collab-2 {
+  height: 220px;
+  width: 15px;
+  background-color: #8FB898;
+  border-radius: 0;
 }
