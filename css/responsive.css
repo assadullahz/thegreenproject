@@ -350,14 +350,14 @@
 
 @media (max-width: 767px) {
 
+  .card-cert {
+    max-width: 100%;
+  }
+
   .impact-li li {
     width: 100%;
   }
 
-  .img-footer1 {
-    width: 50%;
-    margin: auto auto;
-  }
 
   .theme-main-header .top-header p {
     float: none !important;
