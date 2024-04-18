@@ -4196,7 +4196,6 @@ a:hover {
 }
 
 .line-collab {
-  height: 100%;
   min-height: 200px;
   width: 15px;
   background-color: #8FB898;
@@ -4205,8 +4204,53 @@ a:hover {
 }
 
 .line-collab-2 {
-  height: 220px;
+  min-height: 220px;
   width: 15px;
   background-color: #8FB898;
   border-radius: 0;
+}
+
+.title-green-energy {
+  font-family: 'Tinos', serif;
+  font-size: 20pt;
+  color: #181818;
+}
+
+.line-genergy {
+  width: 50px;
+  background-color: #8FB898;
+  border-radius: 0;
+}
+
+.body-genergy {
+  padding: 40px 30px !important;
+}
+
+.body-genergy h4 {
+  margin-bottom: 20px;
+}
+
+.body-genergy p {
+  color: #696969;
+  font-size: 14px;
+}
+
+.hover-custom:hover {
+  color: #777777 !important;
+}
+
+.title-wwt {
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.line-collab-3 {
+  width: 15px;
+  background-color: #0E4736;
+  border-radius: 0;
+}
+
+.partner-slider-two .item {
+  padding-right: 30px;
+  padding-left: 30px;
 }
