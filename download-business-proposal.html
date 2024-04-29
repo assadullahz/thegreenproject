@@ -204,34 +204,43 @@
                 <h4 class="sub-heading">
                   Complete the form below to download our profile!
                 </h4>
-                <div class="row">
+                <form action="" class="row">
                   <div class="col-md-6 col-12 mt-3">
-                    <label for="name">Name</label>
+                    <label for="name"
+                      >Name<span style="color: red">*</span></label
+                    >
                     <input
                       class="form-control"
                       type="text"
                       placeholder="Name"
                       id="name"
+                      required
                     />
                   </div>
                   <div class="col-md-6 col-12 mt-3">
-                    <label for="name">Number Phone</label>
+                    <label for="phone"
+                      >Number Phone<span style="color: red">*</span></label
+                    >
                     <input
                       class="form-control"
                       type="text"
                       placeholder="Number Phone"
+                      required
                     />
                   </div>
                   <div class="col-md-6 col-12 mt-3">
-                    <label for="name">Email</label>
+                    <label for="email"
+                      >Email<span style="color: red">*</span></label
+                    >
                     <input
                       class="form-control"
-                      type="text"
+                      type="email"
                       placeholder="Email"
+                      required
                     />
                   </div>
                   <div class="col-md-6 col-12 mt-3">
-                    <label for="name">Company or Institution</label>
+                    <label for="company">Company or Institution</label>
                     <input
                       class="form-control"
                       type="text"
@@ -253,7 +262,7 @@
                       Submit
                     </button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
             <div
