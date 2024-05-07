@@ -13,7 +13,7 @@ if ($_POST["download-buspro"]) {
         $description = $_POST['description'];
 
         $mail = new SendMail;
-        $body = "<div><p>Name : " . $name . "</p>" . "<p>Phone : " . $phone . "</p>" . "<p>Email : " . $email . "</p>" . "<p>Description : " . $description . "</p></div>";
+        $body = "<div><p>Name : " . $name . "</p>" . "<p>Phone : " . $phone . "</p>" . "<p>Email : " . $email . "</p>" . "<p>Company : " . $company . "</p>" . "<p>Description : " . $description . "</p></div>";
 
         include_once 'mock.php';
         $mail->send($email, $name, "Business Proposal The Green Project", $mock, false);
@@ -25,5 +25,30 @@ if ($_POST["download-buspro"]) {
         header("Location: /thegreenproject");
         die();
     } catch (\Throwable $th) {
+        die();
     }
+} elseif ($_POST["contact"]) {
+    try {
+        $conn = OpenCon();
+        $name = $_POST['name'];
+        $phone = $_POST['phone'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $description = $_POST['description'];
+
+        $mail = new SendMail;
+        $body = "<div><p>Name : " . $name . "</p>" . "<p>Phone : " . $phone . "</p>" . "<p>Email : " . $email . "</p>" . "<p>Subject : " . $subject . "</p>" . "<p>Description : " . $description . "</p></div>";
+
+        $mail->send("assadullah.muzu@gmail.com", "Marketing The Green Project", "Data Contact", $body);
+
+        $conn->query('INSERT INTO tgp_contact ( email, name, phone, subject, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $subject . '","' . $description . '")');
+
+        CloseCon($conn);
+        header("Location: /thegreenproject");
+        die();
+    } catch (\Throwable $th) {
+        die();
+    }
+} else {
+    die();
 }
