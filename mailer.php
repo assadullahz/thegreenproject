@@ -19,10 +19,10 @@ class SendMail
         $mail->SMTPDebug  = 0;
         $mail->SMTPAuth   = TRUE;
         $mail->SMTPSecure = 'ssl';
-        $mail->Port       = '465';
-        $mail->Host       = 'mail.thegreenproject.co.id';
-        $mail->Username   = 'website@thegreenproject.co.id';
-        $mail->Password   = 'digitalMarketingTGP';
+        $mail->Port       = getenv('SMTP_PORT');
+        $mail->Host       = getenv('SMTP_HOST');
+        $mail->Username   = getenv('SMTP_USER');
+        $mail->Password   = getenv('SMTP_PASS');
 
         $mail->IsHTML(true);
         $mail->AddAddress($email, $name);

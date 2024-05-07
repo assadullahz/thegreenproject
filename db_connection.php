@@ -1,12 +1,13 @@
 <?php
+
 function OpenCon()
 {
     $dbhost = "localhost";
     // $dbuser = "root";
     // $dbpass = "";
-    $dbuser = "thegree6_webmaster";
-    $dbpass = "S1f4FX9YQWYg";
-    $dbname = "thegree6_web";
+    $dbuser =  getenv('DB_USER');
+    $dbpass = getenv('DB_PASS');
+    $dbname = getenv('DB_NAME');
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname) or die("Connect failed: %s\n" . $conn->error);
     return $conn;
 }
