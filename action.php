@@ -19,7 +19,7 @@ if ($_POST["download-buspro"]) {
 
         include_once 'mock.php';
         $mail->send($email, $name, "Business Proposal The Green Project", $mock, false);
-        $mail->send("assadullah.muzu@gmail.com", "Marketing The Green Project", "Data Download Business Proposal", $body);
+        $mail->send("marketing@thegreenproject.co.id", "Marketing The Green Project", "Data Download Business Proposal", $body);
 
         $conn->query('INSERT INTO tgp_buspro ( email, name, phone, company, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $company . '","' . $description . '")');
 
@@ -42,7 +42,7 @@ if ($_POST["download-buspro"]) {
         $mail = new SendMail;
         $body = "<div><p>Name : " . $name . "</p>" . "<p>Phone : " . $phone . "</p>" . "<p>Email : " . $email . "</p>" . "<p>Subject : " . $subject . "</p>" . "<p>Description : " . $description . "</p></div>";
 
-        $mail->send("assadullah.muzu@gmail.com", "Marketing The Green Project", "Data Contact", $body);
+        $mail->send("marketing@thegreenproject.co.id", "Marketing The Green Project", "Data Contact", $body);
 
         $conn->query('INSERT INTO tgp_contact ( email, name, phone, subject, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $subject . '","' . $description . '")');
 
