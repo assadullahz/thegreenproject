@@ -204,7 +204,7 @@
                 <h4 class="sub-heading">
                   Complete the form below to download our profile!
                 </h4>
-                <form action="" class="row">
+                <form action="action.php" class="row" method="post">
                   <div class="col-md-6 col-12 mt-3">
                     <label for="name"
                       >Name<span style="color: red">*</span></label
@@ -214,6 +214,7 @@
                       type="text"
                       placeholder="Name"
                       id="name"
+                      name="name"
                       required
                     />
                   </div>
@@ -222,9 +223,11 @@
                       >Number Phone<span style="color: red">*</span></label
                     >
                     <input
-                      class="form-control"
                       type="text"
-                      placeholder="Number Phone"
+                      pattern="[6789][0-9]{9,14}"
+                      name="phone"
+                      class="form-control"
+                      placeholder="62 XXXXXXXXXXX"
                       required
                     />
                   </div>
@@ -236,6 +239,7 @@
                       class="form-control"
                       type="email"
                       placeholder="Email"
+                      name="email"
                       required
                     />
                   </div>
@@ -244,6 +248,7 @@
                     <input
                       class="form-control"
                       type="text"
+                      name="company"
                       placeholder="Company or Institution"
                     />
                   </div>
@@ -252,13 +257,19 @@
                     <textarea
                       name="description"
                       id="description"
+                      name="description"
                       class="form-control"
                       rows="5"
                       placeholder="Description"
                     ></textarea>
                   </div>
                   <div class="col-12 d-flex justify-content-end">
-                    <button class="theme-button-one mt-3" type="submit">
+                    <button
+                      class="theme-button-one mt-3"
+                      type="submit"
+                      name="download-buspro"
+                      value="true"
+                    >
                       Submit
                     </button>
                   </div>
