@@ -26,7 +26,8 @@ if ($_POST["download-buspro"]) {
         CloseCon($conn);
         header("Location: /");
         die();
-    } catch (\Throwable $th) {
+    } catch (Exception $e) {
+        echo 'Message: ' . $e->getMessage();
         die();
     }
 } elseif ($_POST["contact"]) {
@@ -48,7 +49,8 @@ if ($_POST["download-buspro"]) {
         CloseCon($conn);
         header("Location: /");
         die();
-    } catch (\Throwable $th) {
+    } catch (Exception $e) {
+        echo 'Message: ' . $e->getMessage();
         die();
     }
 } else {
