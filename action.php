@@ -2,6 +2,8 @@
 include 'db_connection.php';
 include 'mailer.php';
 
+include "dotenv.php";
+(new DotEnvEnvironment)->load(__DIR__);
 
 if ($_POST["download-buspro"]) {
     try {
@@ -22,7 +24,7 @@ if ($_POST["download-buspro"]) {
         $conn->query('INSERT INTO tgp_buspro ( email, name, phone, company, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $company . '","' . $description . '")');
 
         CloseCon($conn);
-        header("Location: /thegreenproject");
+        header("Location: /");
         die();
     } catch (\Throwable $th) {
         die();
@@ -44,7 +46,7 @@ if ($_POST["download-buspro"]) {
         $conn->query('INSERT INTO tgp_contact ( email, name, phone, subject, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $subject . '","' . $description . '")');
 
         CloseCon($conn);
-        header("Location: /thegreenproject");
+        header("Location: /");
         die();
     } catch (\Throwable $th) {
         die();
