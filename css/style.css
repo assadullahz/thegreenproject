@@ -4254,3 +4254,46 @@ a:hover {
   padding-right: 30px;
   padding-left: 30px;
 }
+
+.text-green {
+  color: #0E4736;
+}
+
+.block-number {
+  background-color: #0E4736;
+  min-height: 86px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.block-number h3 {
+  color: white;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+}
+
+.border-bottom-text {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #707070 !important;
+}
+
+.seken-bg {
+  background-color: #0E4736 !important;
+}
+
+.text-title-green {
+  color: #8FB898 !important;
+  font-size: 30px;
+}
+
+.border-green {
+  border: 1px solid #8FB898;
+}
+
+.padding-long {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
