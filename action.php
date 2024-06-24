@@ -24,7 +24,7 @@ if ($_POST["download-buspro"]) {
         $conn->query('INSERT INTO tgp_buspro ( email, name, phone, company, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $company . '","' . $description . '")');
 
         CloseCon($conn);
-        header("Location: /");
+        header("Location: /thanks-download-business-proposal.html");
         die();
     } catch (Exception $e) {
         echo 'Message: ' . $e->getMessage();
@@ -47,7 +47,7 @@ if ($_POST["download-buspro"]) {
         $conn->query('INSERT INTO tgp_contact ( email, name, phone, subject, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $subject . '","' . $description . '")');
 
         CloseCon($conn);
-        header("Location: /");
+        header("Location: /thanks-contact.html");
         die();
     } catch (Exception $e) {
         echo 'Message: ' . $e->getMessage();
