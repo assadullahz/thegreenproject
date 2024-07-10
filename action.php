@@ -18,8 +18,8 @@ if ($_POST["download-buspro"]) {
         $body = "<div><p>Name : " . $name . "</p>" . "<p>Phone : " . $phone . "</p>" . "<p>Email : " . $email . "</p>" . "<p>Company : " . $company . "</p>" . "<p>Description : " . $description . "</p></div>";
 
         include_once 'mock.php';
-        $mail->send($email, $name, "Business Proposal The Green Project", $mock, false);
-        $mail->send("marketing@thegreenproject.co.id", "Marketing The Green Project", "Data Download Business Proposal", $body);
+        $mail->send($email, $name, "Business Profile The Green Project", $mock, false);
+        $mail->send("marketing@thegreenproject.co.id", "Marketing The Green Project", "Data Download Business Profile", $body);
 
         $conn->query('INSERT INTO tgp_buspro ( email, name, phone, company, description) VALUES ("' . $email . '","' . $name . '","' . $phone . '","' . $company . '","' . $description . '")');
 
