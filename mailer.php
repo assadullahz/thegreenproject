@@ -28,7 +28,7 @@ class SendMail
         $mail->AddAddress($email, $name);
         $mail->SetFrom('website@thegreenproject.co.id', "Website The Green Project");
         // $mail->AddReplyTo(SMTP_USER, SMTP_NAME);
-        if ($cc) $mail->AddCC("assadullah.cep@gmail.com", "Zidan CEP");
+        if ($cc) $mail->AddCC("webengineer.cep@gmail.com", "Web Engineer CEP");
         $mail->Subject = $subject;
 
         $mail->MsgHTML($html_content);
